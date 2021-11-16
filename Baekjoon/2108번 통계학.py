@@ -1,6 +1,4 @@
-import sys
-
-N = int(sys.stdin.readline())
+N = int(input())
 a=[]
 d=[]
 
@@ -32,8 +30,7 @@ for i in range(N):
 
 c = sorted(a)
 
-print(round(sum(c)/len(c)))
-print(c[N//2])
+print(sum(a)//N)
+print(c[(N//2)])
 print(most_cnt(c))
 print(max(c)-min(c))
-
