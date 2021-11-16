@@ -34,3 +34,4 @@ print(sum(a)//N)
 print(c[(N//2)])
 print(most_cnt(c))
 print(max(c)-min(c))
+
