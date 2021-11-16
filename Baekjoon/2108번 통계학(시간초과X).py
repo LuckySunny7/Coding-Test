@@ -8,17 +8,14 @@ numbers = []
 for _ in range(t):
     numbers.append(int(sys.stdin.readline()))
 
-
 def mean(nums):
     return round(sum(nums) / len(nums))
-
 
 def median(nums):
     nums.sort()
     mid = nums[len(nums) // 2]  # nums의 개수는 홀수
 
     return mid
-
 
 def mode(nums):
     mode_dict = Counter(nums)
@@ -34,10 +31,8 @@ def mode(nums):
 
     return mod
 
-
 def scope(nums):
     return max(nums) - min(nums)
-
 
 print(mean(numbers))
 print(median(numbers))
