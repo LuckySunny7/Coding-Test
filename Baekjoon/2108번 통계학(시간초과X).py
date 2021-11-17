@@ -31,7 +31,6 @@ def mode(nums):
 
     return mod
 
-
 def scope(nums):
     return max(nums) - min(nums)
 
